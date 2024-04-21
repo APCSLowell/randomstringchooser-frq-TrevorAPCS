@@ -5,7 +5,7 @@ public class RandomLetterChooser extends RandomStringChooser
 	{ 
 		letterArray = new String[str.length];
 		for(int i = 0; i < str.length; i++){
-			letters.add(str.substing(i, i + 1);
+			letters.add(str.substing(i, i + 1));
 		}
 	}
 	
