@@ -13,7 +13,7 @@ public class RandomStringChooser
 			return "NONE";
 		}
 		else{
-			int temp = Math.random() * words.size();
+			int temp = (int)(Math.random() * words.size());
 			String chosenWord = words.remove(temp);
 			return chosenWord;
 		}
