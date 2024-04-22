@@ -1,12 +1,13 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	private String[] letters;
+	//private String[] letters;
 	public RandomLetterChooser(String str)
 	{
 		letterArray = new String[str.length()];
 		for(int i = 0; i < str.length(); i++){
-			letters.add(str.substing(i, i + 1));
+			words.add(str.substing(i, i + 1));
 		}
+		super(letterArray);
 	}
 	
 	
